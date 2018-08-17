@@ -1,0 +1,43 @@
+$image-height: $content-width * 3/4;
+
+.article-intro {
+  background-color: #b3cdce;
+  margin-top: $image-height / 3;
+  text-align: center;
+  font-size: 0;
+}
+
+.article-intro-content {
+  display: inline-block;
+  margin-top: - $image-height / 3;
+  text-align: left;
+  width: 100%;
+  max-width: $wrapper-width;
+  padding-bottom: 32px;
+}
+
+.article-intro-content > img {
+  height: $image-height;
+  width: $content-width;
+}
+
+.article-section {
+  font-size: 18px;
+  max-width: $wrapper-width;
+  margin: 0 auto;
+}
+
+.article-section > h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 32px 0 0 -24px;
+}
+
+.article-section > p {
+  max-width: $content-width;
+  margin: 24px 0 0 0;
+}
+
+.article-section > ul {
+  padding: 0 0 0 16px;
+}

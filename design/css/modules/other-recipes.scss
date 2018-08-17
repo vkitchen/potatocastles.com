@@ -1,0 +1,28 @@
+.other-recipes {
+  font-size: 0;
+  max-width: $wrapper-width;
+  margin: 0 auto;
+}
+
+.other-recipes > h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 32px 0 0 -24px;
+}
+
+.recipe-link {
+  margin-top: 24px;
+  font-size: 18px;
+  display: inline-block;
+  width: $content-width / 2;
+  vertical-align: top;
+}
+
+.recipe-link > img {
+  width: $content-width / 2 - 24px;
+  height: ($content-width / 2 - 24px) * 3/4;
+}
+
+.recipe-link > a {
+  text-decoration: none;
+}
