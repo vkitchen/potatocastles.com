@@ -1,0 +1,20 @@
+define(`NAME', Maple Cinnamon Bliss Balls)
+define(`INGREDIENTS',
+`<li>2 C almonds, coursely ground</li>'
+<li>1/2 C maple syrup</li>
+<li>2 Tbsp cinnamon</li>
+<li>2 Tbsp coconut oil</li>
+<li>1/4 tsp salt</li>
+<li>1/2 C sultanas (optional)</li>
+)
+define(`METHOD',
+<ol>
+<li>Mix ingredients in large bowl</li>
+<li>Form into balls</li>
+<li>Fridge for 30 mins to firm up</li>
+</ol>
+)
+
+ifdef(`SILENT', ,`
+include(`views/recipe.html')
+')

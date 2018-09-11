@@ -1,0 +1,16 @@
+define(`NAME', Red Wine Vinegar Stir Fry)
+define(`DESCRIPTION', Stir Fry recipe from Jess. Very nice)
+define(`INGREDIENTS',
+<li>2 tsp grated ginger</li>
+<li>2 tsp crushed garlic</li>
+<li>2 Tbsp soy sauce</li>
+<li>2 Tbsp red wine vinegar</li>
+<li>4 tsp brown sugar</li>
+<li>2 tsp vege stock powder</li>
+<li>2 tsp cornflour</li>
+)
+define(`METHOD', <p>Shake to combine</p>)
+
+ifdef(`SILENT', ,`
+include(`views/recipe.html')
+')

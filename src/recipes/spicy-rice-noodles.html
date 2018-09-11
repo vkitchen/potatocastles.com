@@ -1,0 +1,18 @@
+define(`NAME', Spicy Rice Noodles)
+define(`DESCRIPTION', Stir Fry recipe from Jess. Have yet to try)
+define(`INGREDIENTS',
+<li>2 Tbsp dark soy sauce</li>
+<li>1 Tbsp rice wine or sherry</li>
+<li>1 tsp minced ginger</li>
+<li>1 tsp sesame oil</li>
+<li>1 tsp minced garlic</li>
+<li>1/2 tsp minced chilli</li>
+<li>1 Tbsp red curry paste</li>
+<li>2 spring onions</li>
+<li>2 Tbsp coriander leaf</li>
+)
+define(`METHOD', `<p>Fry curry paste, then veges, add sauce towards end</p>')
+
+ifdef(`SILENT', ,`
+include(`views/recipe.html')
+')

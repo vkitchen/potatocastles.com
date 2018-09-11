@@ -1,0 +1,29 @@
+define(`NAME', Minestrone)
+define(`INGREDIENTS',
+`<li>1 large onion, carrot, and celery stalk'
+<li>2 Tbsp olive oil
+<li>1/2 tsp garlic
+<li>4 C stock
+<li>400g can chopped tomatoes
+<li>1/4C macaroni
+<li>1 C chopped zucchini
+<li>1 C chopped green beans
+<li>1 C chopped cabbage
+<li>1 can kidney beans
+`<li>sugar, salt and pepper to taste'
+<li>Italian herbs or fresh herbs
+)
+define(`METHOD', `
+<p>
+Chop veges into small cubes and cook in oil for 15 mins or until onion is
+tender and the veges are slightly browned. Stir in the garlic and cook a few
+seconds longer. Add the stock, herbs and tomatoes. Bring to the boil and add
+macaroni and cook for  few mins. Add green veges and bring back to the boil and
+simmer for a few minutes longer before adding canned beans. Cook gently for a
+few mins after the last addition then taste and adjust seasonings.
+</p>
+')
+
+ifdef(`SILENT', ,`
+include(`views/recipe.html')
+')

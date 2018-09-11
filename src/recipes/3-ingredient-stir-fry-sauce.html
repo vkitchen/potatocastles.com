@@ -1,0 +1,12 @@
+define(`NAME', 3 Ingredient Stir Fry Sauce)
+define(`DESCRIPTION', This very simple stir fry sauce works both as a marinade or a quick meal when put over veges. It can be served with rice or vermicilli noodles. If using as a marinade it can be especially nice when coated and fried. For a simple coating use sesame seeds mixed into corn starch.)
+define(`INGREDIENTS',
+<li>2 parts soy sauce</li>
+<li>2 parts sweet chille sauce</li>
+<li>1 part sesame oil</li>
+)
+define(`METHOD', <p>Shake to combine</p>)
+
+ifdef(`SILENT', ,`
+include(`views/recipe.html')
+')

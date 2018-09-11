@@ -1,0 +1,23 @@
+define(`NAME', Easy Chocolate Cake)
+define(`INGREDIENTS',
+<li>4 1/2 C flour</li>
+<li>3 tsp baking soda</li>
+<li>3/4 C cocoa</li>
+<li>3 C sugar</li>
+<li>3 C cold water</li>
+<li>3 tsp vanilla</li>
+<li>3 Tbsp vinegar</li>
+<li>1 1/8 C oil</li>
+)
+define(`METHOD',
+<ol>
+<li>Sift dry</li>
+<li>Stir in wet</li>
+<li>Bake 180C</li>
+<li>Makes 2 cakes</li>
+</ol>
+)
+
+ifdef(`SILENT', ,`
+include(`views/recipe.html')
+')
